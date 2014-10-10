@@ -1,7 +1,7 @@
 
 Test passed
 
-C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug>reduction.exe --shmoo
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\bin\win64\Debug>reduction.exe --shmoo
 reduction.exe Starting...
 
 GPU Device 0: "GeForce GTX TITAN Black" with compute capability 3.5
@@ -25,7 +25,7 @@ Kernel, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32
 6, 0.04960, 0.04772, 0.04972, 0.06152, 0.07176, 0.07178, 0.07298, 0.05717, 0.07365, 0.07017, 0.43570, 0.41463, 0.41686, 0.40920, 0.40950, 0.42398, 0.41621, 0.42313, 0.42573, 0.43720, 0.44732, 0.47106, 0.52280, 0.67390, 0.94645, 1.48357
 Test passed
 
-C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug>reduction.exe --shmoo --cpufinal
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\bin\win64\Debug>reduction.exe --shmoo --cpufinal
 reduction.exe Starting...
 
 GPU Device 0: "GeForce GTX TITAN Black" with compute capability 3.5
@@ -49,7 +49,7 @@ Kernel, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32
 6, 0.05771, 0.04841, 0.05164, 0.06181, 0.07634, 0.05824, 0.07405, 0.06125, 0.05608, 0.05664, 0.41296, 0.41619, 0.42036, 0.41245, 0.40780, 0.41392, 0.41875, 0.42321, 0.42251, 0.42722, 0.43514, 0.47888, 0.53718, 0.67246, 0.95051, 1.48348
 Test passed
 
-C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug>ipython
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\bin\win64\Debug>ipython
 Python 2.7.3 (default, Apr 10 2012, 23:31:26) [MSC v.1500 32 bit (Intel)]
 Type "copyright", "credits" or "license" for more information.
 
@@ -63,7 +63,7 @@ In [1]: ls
  Volume in drive C is SYS
  Volume Serial Number is 50EF-2FC9
 
- Directory of C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug
+ Directory of C:\ProgramData\NVIDIA Corporation\CUDA Samples\bin\win64\Debug
 
 10/08/2014  01:38 PM    <DIR>          .
 10/08/2014  01:38 PM    <DIR>          ..
@@ -214,23 +214,23 @@ NameError: name 'q' is not defined
 
 In [7]: exit
 
-C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug>ls
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\bin\win64\Debug>ls
 FreeImage64.dll     cdpSimplePrint.ilk  clock.exe  clock.lib     fluidsGL.exp  fluidsGL.pdb  reduction.exe  reduction.lib  simpleGL.exp  simpleGL.pdb
 cdpSimplePrint.exe  cdpSimplePrint.lib  clock.exp  clock.pdb     fluidsGL.ilk  freeglut.dll  reduction.exp  reduction.pdb  simpleGL.ilk
 cdpSimplePrint.exp  cdpSimplePrint.pdb  clock.ilk  fluidsGL.exe  fluidsGL.lib  glew64.dll    reduction.ilk  simpleGL.exe   simpleGL.lib
 
-C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug>ls
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\bin\win64\Debug>ls
 FreeImage64.dll     cdpSimplePrint.ilk  clock.exe  clock.lib     fluidsGL.exp  fluidsGL.pdb  reduction.exe  reduction.lib  simpleGL.exp  simpleGL.pdb
 cdpSimplePrint.exe  cdpSimplePrint.lib  clock.exp  clock.pdb     fluidsGL.ilk  freeglut.dll  reduction.exp  reduction.pdb  simpleGL.ilk
 cdpSimplePrint.exp  cdpSimplePrint.pdb  clock.ilk  fluidsGL.exe  fluidsGL.lib  glew64.dll    reduction.ilk  simpleGL.exe   simpleGL.lib
 
-C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug>reduction.exe --shmoo --cpufinal > reduction.exe
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\bin\win64\Debug>reduction.exe --shmoo --cpufinal > reduction.exe
 The process cannot access the file because it is being used by another process.
 
-C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug>reduction.exe --shmoo --cpufinal
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\bin\win64\Debug>reduction.exe --shmoo --cpufinal
 Access is denied.
 
-C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug>reduction.exe --shmoo --cpufinal
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\bin\win64\Debug>reduction.exe --shmoo --cpufinal
 reduction.exe Starting...
 
 GPU Device 0: "GeForce GTX TITAN Black" with compute capability 3.5
@@ -253,7 +253,7 @@ Kernel, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32
 5, 0.05736, 0.04880, 0.07163, 0.07191, 0.07174, 0.07294, 0.05759, 0.05338, 0.05166, 0.07550, 0.41043, 0.39940, 0.41498, 0.40698, 0.39894, 0.42380, 0.41538, 0.42927, 0.42808, 0.80297, 0.87079, 0.96975, 1.15006, 1.51265, 2.24318, -1.00000
 6, 0.07461, 0.07379, 0.06995, 0.06128, 0.05455, 0.05023, 0.05343, 0.05197, 0.05758, 0.05858, 0.40719, 0.39759, 0.39883, 0.41779, 0.41457, 0.41819, 0.40065, 0.43031, 0.41714, 0.42944, 0.44521, 0.48184, 0.55286, 0.68345, 0.95423, 1.50231Test passed
 
-C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug>reduction.exe --shmoo --cpufinal -type=float
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\bin\win64\Debug>reduction.exe --shmoo --cpufinal -type=float
 reduction.exe Starting...
 
 GPU Device 0: "GeForce GTX TITAN Black" with compute capability 3.5
@@ -277,7 +277,7 @@ Kernel, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32
 6, 0.04962, 0.04941, 0.05244, 0.05204, 0.04866, 0.04803, 0.07183, 0.07016, 0.05117, 0.05642, 0.43289, 0.41868, 0.40818, 0.40908, 0.40383, 0.40435, 0.41870, 0.41057, 0.40688, 0.41738, 0.43464, 0.46703, 0.53504, 0.68280, 0.97420, 1.47857
 Test passed
 
-C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug>reduction.exe --shmoo --cpufinal -type=double
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\bin\win64\Debug>reduction.exe --shmoo --cpufinal -type=double
 reduction.exe Starting...
 
 GPU Device 0: "GeForce GTX TITAN Black" with compute capability 3.5
@@ -301,5 +301,5 @@ Kernel, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32
 6, 0.05660, 0.05646, 0.05734, 0.05454, 0.05985, 0.05496, 0.05413, 0.05298, 0.05275, 0.05745, 0.39718, 0.42027, 0.41161, 0.39762, 0.39205, 0.40939, 0.40000, 0.41517, 0.43182, 0.44894, 0.48313, 0.50607, 0.59700, 0.77311, 1.13493, 1.82926
 Test passed
 
-C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug>
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\bin\win64\Debug>
 
