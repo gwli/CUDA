@@ -1,0 +1,305 @@
+
+Test passed
+
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug>reduction.exe --shmoo
+reduction.exe Starting...
+
+GPU Device 0: "GeForce GTX TITAN Black" with compute capability 3.5
+
+Using Device 0: GeForce GTX TITAN Black
+
+Reducing array of type (null)
+
+16777216 elements
+256 threads (max)
+Time in milliseconds for various numbers of elements for each kernel
+
+
+Kernel, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072, 262144, 524288, 1048576, 2097152, 4194304, 8388608, 16777216, 33554432
+0, 0.05332, 0.04674, 0.05076, 0.04699, 0.04730, 0.04857, 0.05231, 0.05557, 0.06739, 0.42229, 0.41390, 0.42475, 0.44224, 0.42681, 0.42401, 0.42831, 0.44941, 0.84801, 0.87669, 0.98899, 1.27761, 1.80175, 2.76934, 4.23042, -1.00000, -1.00000
+1, 0.06477, 0.07036, 0.06471, 0.06977, 0.06523, 0.06720, 0.05229, 0.05129, 0.06887, 0.41789, 0.41882, 0.40496, 0.41196, 0.41428, 0.41556, 0.42237, 0.43081, 0.79996, 0.85744, 0.90140, 1.02995, 1.26285, 1.78589, 2.85464, -1.00000, -1.00000
+2, 0.04424, 0.04796, 0.05353, 0.04710, 0.04961, 0.05396, 0.04934, 0.04715, 0.04729, 0.41372, 0.41141, 0.42357, 0.41231, 0.41293, 0.41226, 0.41563, 0.42915, 0.76931, 0.80052, 0.83184, 0.97302, 1.21863, 1.68134, 2.63568, -1.00000, -1.00000
+3, 0.04608, 0.05065, 0.04962, 0.05128, 0.04741, 0.05326, 0.06770, 0.06592, 0.06179, 0.04721, 0.42024, 0.40106, 0.40570, 0.41166, 0.40253, 0.40506, 0.40838, 0.40552, 0.42439, 0.79045, 0.88123, 0.99503, 1.26241, 1.75721, 2.78857, -1.00000
+4, 0.04867, 0.04938, 0.04785, 0.05546, 0.04901, 0.05235, 0.05052, 0.04803, 0.05544, 0.07282, 0.40250, 0.41354, 0.41901, 0.41968, 0.42118, 0.41926, 0.41598, 0.42989, 0.45294, 0.82065, 0.86309, 0.96505, 1.16337, 1.52429, 2.34196, -1.00000
+5, 0.05209, 0.05565, 0.04933, 0.05428, 0.04850, 0.05575, 0.05340, 0.05272, 0.05619, 0.05341, 0.42015, 0.41011, 0.41682, 0.42026, 0.41299, 0.41937, 0.42385, 0.43812, 0.45037, 0.82921, 0.87645, 0.96369, 1.12773, 1.48413, 2.23444, -1.00000
+6, 0.04960, 0.04772, 0.04972, 0.06152, 0.07176, 0.07178, 0.07298, 0.05717, 0.07365, 0.07017, 0.43570, 0.41463, 0.41686, 0.40920, 0.40950, 0.42398, 0.41621, 0.42313, 0.42573, 0.43720, 0.44732, 0.47106, 0.52280, 0.67390, 0.94645, 1.48357
+Test passed
+
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug>reduction.exe --shmoo --cpufinal
+reduction.exe Starting...
+
+GPU Device 0: "GeForce GTX TITAN Black" with compute capability 3.5
+
+Using Device 0: GeForce GTX TITAN Black
+
+Reducing array of type (null)
+
+16777216 elements
+256 threads (max)
+Time in milliseconds for various numbers of elements for each kernel
+
+
+Kernel, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072, 262144, 524288, 1048576, 2097152, 4194304, 8388608, 16777216, 33554432
+0, 0.05295, 0.05331, 0.04812, 0.05174, 0.04907, 0.05154, 0.05236, 0.05746, 0.05609, 0.42216, 0.41054, 0.41467, 0.41912, 0.42128, 0.43823, 0.43309, 0.44209, 0.82010, 0.86721, 0.98687, 1.24501, 1.79550, 2.64736, 4.17646, -1.00000, -1.00000
+1, 0.04804, 0.04992, 0.05126, 0.04870, 0.04713, 0.04802, 0.05007, 0.05115, 0.05253, 0.39693, 0.41760, 0.41036, 0.41180, 0.41475, 0.41297, 0.41251, 0.43039, 0.79686, 0.82129, 0.88805, 1.01449, 1.27997, 1.75904, 2.85465, -1.00000, -1.00000
+2, 0.05015, 0.04733, 0.05028, 0.05279, 0.05204, 0.04963, 0.04991, 0.04807, 0.06655, 0.40244, 0.39468, 0.40473, 0.41046, 0.41335, 0.41960, 0.40935, 0.42541, 0.76891, 0.79283, 0.84454, 0.97337, 1.20894, 1.69795, 2.64122, -1.00000, -1.00000
+3, 0.05212, 0.04724, 0.04736, 0.05255, 0.05054, 0.05303, 0.05109, 0.04898, 0.04947, 0.04966, 0.40291, 0.39601, 0.39318, 0.39082, 0.40145, 0.39543, 0.40540, 0.41235, 0.42297, 0.79103, 0.87606, 1.00748, 1.37735, 1.86075, 2.80129, -1.00000
+4, 0.05135, 0.05053, 0.07150, 0.04850, 0.05208, 0.05380, 0.05143, 0.04765, 0.05593, 0.05261, 0.41917, 0.41150, 0.41362, 0.41180, 0.41216, 0.44928, 0.45091, 0.47177, 0.47022, 0.87116, 0.91703, 1.01500, 1.20817, 1.56124, 2.34593, -1.00000
+5, 0.05624, 0.04712, 0.05849, 0.05897, 0.05588, 0.05859, 0.05509, 0.06212, 0.06437, 0.05683, 0.41100, 0.40599, 0.40344, 0.40353, 0.40410, 0.41571, 0.41364, 0.42671, 0.44394, 0.82195, 0.85941, 0.95169, 1.11813, 1.48702, 2.24798, -1.00000
+6, 0.05771, 0.04841, 0.05164, 0.06181, 0.07634, 0.05824, 0.07405, 0.06125, 0.05608, 0.05664, 0.41296, 0.41619, 0.42036, 0.41245, 0.40780, 0.41392, 0.41875, 0.42321, 0.42251, 0.42722, 0.43514, 0.47888, 0.53718, 0.67246, 0.95051, 1.48348
+Test passed
+
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug>ipython
+Python 2.7.3 (default, Apr 10 2012, 23:31:26) [MSC v.1500 32 bit (Intel)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 0.13.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: ls
+ Volume in drive C is SYS
+ Volume Serial Number is 50EF-2FC9
+
+ Directory of C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug
+
+10/08/2014  01:38 PM    <DIR>          .
+10/08/2014  01:38 PM    <DIR>          ..
+09/29/2014  07:01 PM         2,574,336 cdpSimplePrint.exe
+09/29/2014  07:01 PM               732 cdpSimplePrint.exp
+09/29/2014  07:01 PM         4,837,128 cdpSimplePrint.ilk
+09/29/2014  07:01 PM             1,888 cdpSimplePrint.lib
+09/29/2014  07:01 PM         5,147,648 cdpSimplePrint.pdb
+10/08/2014  01:40 PM         1,337,344 clock.exe
+10/08/2014  01:38 PM               704 clock.exp
+10/08/2014  01:40 PM         2,809,928 clock.ilk
+10/08/2014  01:38 PM             1,698 clock.lib
+10/08/2014  01:40 PM         3,427,328 clock.pdb
+09/29/2014  06:57 PM         2,433,536 fluidsGL.exe
+09/29/2014  06:57 PM               719 fluidsGL.exp
+09/29/2014  06:57 PM         5,255,368 fluidsGL.ilk
+09/29/2014  06:57 PM             1,736 fluidsGL.lib
+09/29/2014  06:57 PM         5,663,744 fluidsGL.pdb
+09/04/2014  05:48 AM           311,296 freeglut.dll
+09/04/2014  05:48 AM         3,039,744 FreeImage64.dll
+09/04/2014  05:48 AM           229,376 glew64.dll
+10/08/2014  11:31 PM         4,172,288 reduction.exe
+10/07/2014  05:07 PM               718 reduction.exp
+10/08/2014  11:31 PM         2,919,096 reduction.ilk
+10/07/2014  05:07 PM             1,746 reduction.lib
+10/08/2014  11:31 PM         3,673,088 reduction.pdb
+09/29/2014  06:43 PM         2,255,872 simpleGL.exe
+09/29/2014  06:43 PM               716 simpleGL.exp
+09/29/2014  06:43 PM         5,055,716 simpleGL.ilk
+09/29/2014  06:43 PM             1,736 simpleGL.lib
+09/29/2014  06:43 PM         5,426,176 simpleGL.pdb
+              28 File(s)     60,581,405 bytes
+               2 Dir(s)   3,243,569,152 bytes free
+
+In [2]: %run re
+%recall          %rehashx         %reload_ext      %rep             %rerun           %reset           %reset_selective reduce           reduction.exe    reduction.exp    reduction.ilk    reduction.lib    reduction.pdb    reload           repr             return           reversed
+
+In [2]: %run redu
+reduce        reduction.exe reduction.exp reduction.ilk reduction.lib reduction.pdb
+
+In [2]: %run reduct
+reduction.exe reduction.exp reduction.ilk reduction.lib reduction.pdb
+
+In [2]: %run reduction.e
+reduction.exe reduction.exp
+
+In [2]: %run reduction.exe
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+C:\Python27\lib\site-packages\IPython\utils\py3compat.pyc in execfile(fname, glob, loc)
+    169             else:
+    170                 filename = fname
+--> 171             exec compile(scripttext, filename, 'exec') in glob, loc
+    172     else:
+    173         def execfile(fname, *where):
+
+TypeError: compile() expected string without null bytes
+
+In [3]: import os
+
+In [4]: os.s
+os.sep              os.spawnl           os.spawnle          os.spawnv           os.spawnve          os.startfile        os.stat             os.stat_float_times os.stat_result      os.statvfs_result   os.strerror         os.sys              os.system
+
+In [4]: os.sy
+os.sys    os.system
+
+In [4]: os.system("re
+%recall          %reload_ext      %rerun           %reset_selective reduction.exe    reduction.ilk    reduction.pdb    ren              return
+%rehashx         %rep             %reset           reduce           reduction.exp    reduction.lib    reload           repr             reversed
+
+In [4]: os.system("redu
+reduce        reduction.exe reduction.exp reduction.ilk reduction.lib reduction.pdb
+
+In [4]: os.system("reduct
+reduction.exe reduction.exp reduction.ilk reduction.lib reduction.pdb
+
+In [4]: os.system("reduction.e
+reduction.exe reduction.exp
+
+In [4]: os.system("reduction.exe")
+reduction.exe Starting...
+
+GPU Device 0: "GeForce GTX TITAN Black" with compute capability 3.5
+
+Using Device 0: GeForce GTX TITAN Black
+
+Reducing array of type (null)
+
+16777216 elements
+256 threads (max)
+64 blocks
+
+Reduction, Throughput = 63.7955 GB/s, Time = 0.00105 s, Size = 16777216 Elements, NumDevsUsed = 1, Workgroup = 256
+
+GPU result = 2139095040
+CPU result = 2139095040
+
+Test passed
+Out[4]: 0
+
+In [5]: %
+%%!                     %%script                %autoindent             %debug                  %hist                   %loadpy                 %magic                  %pfile                  %psearch                %rehashx                %sc                     %unload_ext
+%%bash                  %%sh                    %automagic              %dhist                  %history                %logoff                 %notebook               %pinfo                  %psource                %reload_ext             %store                  %who
+%%capture               %%sx                    %bookmark               %dirs                   %install_default_config %logon                  %page                   %pinfo2                 %pushd                  %rep                    %sx                     %who_ls
+%%cmd                   %%system                %cd                     %doctest_mode           %install_ext            %logstart               %paste                  %popd                   %pwd                    %rerun                  %system                 %whos
+%%file                  %%timeit                %cls                    %ed                     %install_profiles       %logstate               %pastebin               %pprint                 %pycat                  %reset                  %tb                     %xdel
+%%perl                  %alias                  %colors                 %edit                   %killbgscripts          %logstop                %pdb                    %precision              %pylab                  %reset_selective        %time                   %xmode
+%%powershell            %alias_magic            %config                 %env                    %load                   %lsmagic                %pdef                   %profile                %quickref               %run                    %timeit
+%%prun                  %autocall               %cpaste                 %gui                    %load_ext               %macro                  %pdoc                   %prun                   %recall                 %save                   %unalias
+
+In [5]: %?
+ERROR: Line magic function `%?` not found.
+In [6]: %%
+%%!          %%bash       %%capture    %%cmd        %%file       %%perl       %%powershell %%prun       %%script     %%sh         %%sx         %%system     %%timeit
+
+In [6]: %
+%%!                     %%script                %autoindent             %debug                  %hist                   %loadpy                 %magic                  %pfile                  %psearch                %rehashx                %sc                     %unload_ext
+%%bash                  %%sh                    %automagic              %dhist                  %history                %logoff                 %notebook               %pinfo                  %psource                %reload_ext             %store                  %who
+%%capture               %%sx                    %bookmark               %dirs                   %install_default_config %logon                  %page                   %pinfo2                 %pushd                  %rep                    %sx                     %who_ls
+%%cmd                   %%system                %cd                     %doctest_mode           %install_ext            %logstart               %paste                  %popd                   %pwd                    %rerun                  %system                 %whos
+%%file                  %%timeit                %cls                    %ed                     %install_profiles       %logstate               %pastebin               %pprint                 %pycat                  %reset                  %tb                     %xdel
+%%perl                  %alias                  %colors                 %edit                   %killbgscripts          %logstop                %pdb                    %precision              %pylab                  %reset_selective        %time                   %xmode
+%%powershell            %alias_magic            %config                 %env                    %load                   %lsmagic                %pdef                   %profile                %quickref               %run                    %timeit
+%%prun                  %autocall               %cpaste                 %gui                    %load_ext               %macro                  %pdoc                   %prun                   %recall                 %save                   %unalias
+
+In [6]: %%cmd
+   ...: dir
+   ...: q
+   ...: exit
+   ...: q
+   ...:
+KeyboardInterrupt
+
+In [6]: os.system("re
+%recall          %reload_ext      %rerun           %reset_selective reduction.exe    reduction.ilk    reduction.pdb    ren              return
+%rehashx         %rep             %reset           reduce           reduction.exp    reduction.lib    reload           repr             reversed
+
+In [6]: os.system("redu
+reduce        reduction.exe reduction.exp reduction.ilk reduction.lib reduction.pdb
+
+In [6]: q
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-6-c3be117041a1> in <module>()
+----> 1 q
+
+NameError: name 'q' is not defined
+
+In [7]: exit
+
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug>ls
+FreeImage64.dll     cdpSimplePrint.ilk  clock.exe  clock.lib     fluidsGL.exp  fluidsGL.pdb  reduction.exe  reduction.lib  simpleGL.exp  simpleGL.pdb
+cdpSimplePrint.exe  cdpSimplePrint.lib  clock.exp  clock.pdb     fluidsGL.ilk  freeglut.dll  reduction.exp  reduction.pdb  simpleGL.ilk
+cdpSimplePrint.exp  cdpSimplePrint.pdb  clock.ilk  fluidsGL.exe  fluidsGL.lib  glew64.dll    reduction.ilk  simpleGL.exe   simpleGL.lib
+
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug>ls
+FreeImage64.dll     cdpSimplePrint.ilk  clock.exe  clock.lib     fluidsGL.exp  fluidsGL.pdb  reduction.exe  reduction.lib  simpleGL.exp  simpleGL.pdb
+cdpSimplePrint.exe  cdpSimplePrint.lib  clock.exp  clock.pdb     fluidsGL.ilk  freeglut.dll  reduction.exp  reduction.pdb  simpleGL.ilk
+cdpSimplePrint.exp  cdpSimplePrint.pdb  clock.ilk  fluidsGL.exe  fluidsGL.lib  glew64.dll    reduction.ilk  simpleGL.exe   simpleGL.lib
+
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug>reduction.exe --shmoo --cpufinal > reduction.exe
+The process cannot access the file because it is being used by another process.
+
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug>reduction.exe --shmoo --cpufinal
+Access is denied.
+
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug>reduction.exe --shmoo --cpufinal
+reduction.exe Starting...
+
+GPU Device 0: "GeForce GTX TITAN Black" with compute capability 3.5
+
+Using Device 0: GeForce GTX TITAN Black
+
+Reducing array of type (null)
+
+16777216 elements
+256 threads (max)
+Time in milliseconds for various numbers of elements for each kernel
+
+
+Kernel, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072, 262144, 524288, 1048576, 2097152, 4194304, 8388608, 16777216, 33554432
+0, 0.06884, 0.06440, 0.04994, 0.04871, 0.06932, 0.04886, 0.05305, 0.05415, 0.05366, 0.41036, 0.41932, 0.41786, 0.42447, 0.41932, 0.41503, 0.41884, 0.43750, 0.84080, 0.87770, 1.02519, 1.35253, 1.79098, 2.71231, 4.21102, -1.00000, -1.00000
+1, 0.04375, 0.05141, 0.06352, 0.04763, 0.04893, 0.05064, 0.04783, 0.04963, 0.04842, 0.40399, 0.41229, 0.44219, 0.46461, 0.48202, 0.40756, 0.41416, 0.41937, 0.80157, 0.79669, 0.88231, 1.01405, 1.29567, 1.80924, 2.86162, -1.00000, -1.00000
+2, 0.06744, 0.06965, 0.06488, 0.05049, 0.04833, 0.04807, 0.05583, 0.04835, 0.05459, 0.40396, 0.42120, 0.40915, 0.40234, 0.39593, 0.39890, 0.40521, 0.44622, 0.78474, 0.80677, 0.86729, 0.98820, 1.22323, 1.70797, 2.65094, -1.00000, -1.00000
+3, 0.04794, 0.04741, 0.05244, 0.05374, 0.06648, 0.06863, 0.06916, 0.05550, 0.04719, 0.05356, 0.41589, 0.42983, 0.42139, 0.41036, 0.41563, 0.40939, 0.41850, 0.41981, 0.45101, 0.81821, 0.88845, 1.01235, 1.25244, 1.75397, 2.81416, -1.00000
+4, 0.07292, 0.05506, 0.05021, 0.05191, 0.05448, 0.05371, 0.04912, 0.04857, 0.05134, 0.05332, 0.41598, 0.40246, 0.41221, 0.41334, 0.41030, 0.41718, 0.43877, 0.42867, 0.45714, 0.80143, 0.85848, 0.99368, 1.16160, 1.55262, 2.32122, -1.00000
+5, 0.05736, 0.04880, 0.07163, 0.07191, 0.07174, 0.07294, 0.05759, 0.05338, 0.05166, 0.07550, 0.41043, 0.39940, 0.41498, 0.40698, 0.39894, 0.42380, 0.41538, 0.42927, 0.42808, 0.80297, 0.87079, 0.96975, 1.15006, 1.51265, 2.24318, -1.00000
+6, 0.07461, 0.07379, 0.06995, 0.06128, 0.05455, 0.05023, 0.05343, 0.05197, 0.05758, 0.05858, 0.40719, 0.39759, 0.39883, 0.41779, 0.41457, 0.41819, 0.40065, 0.43031, 0.41714, 0.42944, 0.44521, 0.48184, 0.55286, 0.68345, 0.95423, 1.50231Test passed
+
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug>reduction.exe --shmoo --cpufinal -type=float
+reduction.exe Starting...
+
+GPU Device 0: "GeForce GTX TITAN Black" with compute capability 3.5
+
+Using Device 0: GeForce GTX TITAN Black
+
+Reducing array of type float
+
+16777216 elements
+256 threads (max)
+Time in milliseconds for various numbers of elements for each kernel
+
+
+Kernel, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072, 262144, 524288, 1048576, 2097152, 4194304, 8388608, 16777216, 33554432
+0, 0.06822, 0.06489, 0.06640, 0.06635, 0.06701, 0.07180, 0.07081, 0.05554, 0.05669, 0.40704, 0.40966, 0.43307, 0.42564, 0.43066, 0.42809, 0.45296, 0.45396, 0.83352, 0.87992, 1.02629, 1.28325, 1.80625, 2.72509, 4.20011, -1.00000, -1.00000
+1, 0.04667, 0.04663, 0.04840, 0.04969, 0.04720, 0.04836, 0.04639, 0.04737, 0.05059, 0.40862, 0.40465, 0.42562, 0.41588, 0.40601, 0.39699, 0.41115, 0.41857, 0.77351, 0.82519, 0.87735, 1.01646, 1.29993, 1.83528, 2.89058, -1.00000, -1.00000
+2, 0.04961, 0.05164, 0.04743, 0.04815, 0.05173, 0.04721, 0.05306, 0.05244, 0.05097, 0.40516, 0.40432, 0.39359, 0.39354, 0.41656, 0.42145, 0.40816, 0.41978, 0.76709, 0.80371, 0.84078, 0.99816, 1.27701, 1.69148, 2.64392, -1.00000, -1.00000
+3, 0.06890, 0.06626, 0.05402, 0.04747, 0.04745, 0.04996, 0.04721, 0.05299, 0.04727, 0.05112, 0.41759, 0.39993, 0.38817, 0.39561, 0.39312, 0.41239, 0.40627, 0.40776, 0.45030, 0.82732, 0.88867, 1.01423, 1.25662, 1.77260, 2.78087, -1.00000
+4, 0.05626, 0.05542, 0.05594, 0.05216, 0.04961, 0.05486, 0.05516, 0.07342, 0.07830, 0.07194, 0.41663, 0.42375, 0.42463, 0.42466, 0.40784, 0.40721, 0.42340, 0.41874, 0.44416, 0.81011, 0.86634, 0.98400, 1.17849, 1.56111, 2.32945, -1.00000
+5, 0.06188, 0.05031, 0.05193, 0.04941, 0.04968, 0.05234, 0.04885, 0.05363, 0.04971, 0.05683, 0.41838, 0.43307, 0.42393, 0.41019, 0.41353, 0.41199, 0.41318, 0.43464, 0.45646, 0.82735, 0.86576, 0.95328, 1.12828, 1.50771, 2.24543, -1.00000
+6, 0.04962, 0.04941, 0.05244, 0.05204, 0.04866, 0.04803, 0.07183, 0.07016, 0.05117, 0.05642, 0.43289, 0.41868, 0.40818, 0.40908, 0.40383, 0.40435, 0.41870, 0.41057, 0.40688, 0.41738, 0.43464, 0.46703, 0.53504, 0.68280, 0.97420, 1.47857
+Test passed
+
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug>reduction.exe --shmoo --cpufinal -type=double
+reduction.exe Starting...
+
+GPU Device 0: "GeForce GTX TITAN Black" with compute capability 3.5
+
+Using Device 0: GeForce GTX TITAN Black
+
+Reducing array of type double
+
+16777216 elements
+256 threads (max)
+Time in milliseconds for various numbers of elements for each kernel
+
+
+Kernel, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072, 262144, 524288, 1048576, 2097152, 4194304, 8388608, 16777216, 33554432
+0, 0.05244, 0.04895, 0.04921, 0.04702, 0.04778, 0.05298, 0.05264, 0.07282, 0.05632, 0.43126, 0.44189, 0.44389, 0.43143, 0.40911, 0.42079, 0.43444, 0.42640, 0.80066, 0.84612, 0.99202, 1.24030, 1.71756, 2.61397, 3.96061, -1.00000, -1.00000
+1, 0.04672, 0.05249, 0.05263, 0.05007, 0.04806, 0.04840, 0.05273, 0.04766, 0.04773, 0.42445, 0.42286, 0.40877, 0.41159, 0.41150, 0.39827, 0.41602, 0.42110, 0.78342, 0.81572, 0.90250, 1.02424, 1.29796, 1.91057, 3.09212, -1.00000, -1.00000
+2, 0.04423, 0.05907, 0.06508, 0.04718, 0.05453, 0.06901, 0.06573, 0.04866, 0.04747, 0.40985, 0.40438, 0.39635, 0.43329, 0.40286, 0.39108, 0.40879, 0.39953, 0.74902, 0.78146, 0.85490, 0.98640, 1.23497, 1.72346, 2.64196, -1.00000, -1.00000
+3, 0.04415, 0.04799, 0.04680, 0.04703, 0.05184, 0.04801, 0.04732, 0.04931, 0.04646, 0.04695, 0.38074, 0.37945, 0.39802, 0.38412, 0.38318, 0.39146, 0.40882, 0.43442, 0.44898, 0.80953, 0.87748, 1.01097, 1.29679, 1.80067, 2.83849, -1.00000
+4, 0.05546, 0.06832, 0.07063, 0.06328, 0.05431, 0.05878, 0.05440, 0.05645, 0.05637, 0.05603, 0.42496, 0.41258, 0.41701, 0.41590, 0.41607, 0.41249, 0.42110, 0.46251, 0.47683, 0.86687, 0.94306, 1.04527, 1.28292, 1.77116, 2.76797, -1.00000
+5, 0.05329, 0.05473, 0.05493, 0.05992, 0.07094, 0.07413, 0.06735, 0.07217, 0.06291, 0.07272, 0.42019, 0.42036, 0.41791, 0.41626, 0.40873, 0.42460, 0.41521, 0.44199, 0.45940, 0.83072, 0.90504, 1.03638, 1.28296, 1.76358, 2.66825, -1.00000
+6, 0.05660, 0.05646, 0.05734, 0.05454, 0.05985, 0.05496, 0.05413, 0.05298, 0.05275, 0.05745, 0.39718, 0.42027, 0.41161, 0.39762, 0.39205, 0.40939, 0.40000, 0.41517, 0.43182, 0.44894, 0.48313, 0.50607, 0.59700, 0.77311, 1.13493, 1.82926
+Test passed
+
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.0\bin\win64\Debug>
+
